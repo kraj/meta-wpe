@@ -1,0 +1,1 @@
+../gstreamer/gst-plugins-package.inc

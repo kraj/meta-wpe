@@ -1,0 +1,1 @@
+../gstreamer/gstreamer1.0_1.10.4.bb
