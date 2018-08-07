@@ -6,11 +6,11 @@ PR = "r1"
 require wpeframework-plugins.inc
 
 SRC_URI = "git://github.com/WebPlatformForEmbedded/WPEFrameworkPlugins.git;protocol=git;branch=master \
-          file://index.html \
-          file://0003-RemoteControl-Snapshot-Fix-refsw-include-paths.patch \
-"
+           file://index.html \
+           file://0003-RemoteControl-fix-refsw-include-path.patch \
+           "
 
-SRCREV = "c64c925f19b3283cfb72ecef7b23710462d9dc03"
+SRCREV = "cb53b16cc2d9676c4f345d74ccad38e8140cc6fb"
 
 WEBKITBROWSER_AUTOSTART ?= "true"
 WEBKITBROWSER_MEDIADISKCACHE ?= "false"
